@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ClientMain",
+            "request": "launch",
+            "mainClass": "mini_golf.client.ClientMain",
+            "projectName": "app",
+            "cwd": "${fileDirname}/../../../../../"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServerMain",
+            "request": "launch",
+            "mainClass": "mini_golf.server.ServerMain",
+            "projectName": "app"
+        },
+        
+    ]
+}
